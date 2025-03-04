@@ -1,1 +1,16 @@
-Update this file to add the content
+version: '3'
+services:
+  tharshini:
+    image: "tharshini27/22it050-personal-api"
+    container_name: tharshini_container
+    restart: always
+    ports:
+      - "5003:5000"
+  pavithra:
+    image: "pavithrapalanisamy32/22it028-personal-api"
+    container_name: pavithra_container
+    restart: always
+    ports:
+       - "5004:5000"    
+
+  
